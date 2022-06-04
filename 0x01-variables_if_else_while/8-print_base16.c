@@ -21,6 +21,6 @@ a = 97;
 		putchar(a);
 		++a;
 	}
-		r('\n');
+	putchar('\n');
 	return (0);
 }
