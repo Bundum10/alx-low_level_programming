@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ *main -Entry point
  *
  *
- * Return: 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {
@@ -12,17 +12,7 @@ int main(void)
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
-		n = tolower(n);
-		putchar(n);
-		if (n == 'z')
-		{
-			n = 'A';
-			for (; n <= 'Z'; n++)
-			{
-				putchar(n);
-			}
-			break;
-		}
+		putcha(n);
 	}
 	putchar('\n');
 	return (0);
