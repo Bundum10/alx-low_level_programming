@@ -9,16 +9,18 @@
 int main(void)
 {
 	char a;
-a =48;
-	while(a < 58)
+a = 48;
+	while (a < 58)
 	{
 		putchar(a);
 		++a;
 	}
-a=97;
-	while(a < 103)
+a = 97;
+	while (a < 103)
 	{
 		putchar(a);
 		++a;
 	}
-		r('\n')
+		r('\n');
+	return (0);
+}
