@@ -4,7 +4,7 @@
  *print_sign - prints the sign of a number
  *@n: n is an integer
  *
- *Return: 1 
+ *Return: 1
  */
 int print_sign(int n)
 {
